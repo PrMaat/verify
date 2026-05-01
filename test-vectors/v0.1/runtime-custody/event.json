@@ -1,0 +1,21 @@
+{
+  "v": 1,
+  "type": "agent.message.sent",
+  "issuer": "did:prmaat:test-3",
+  "subject": "did:prmaat:test-3",
+  "ts": "2026-05-01T20:00:00.000Z",
+  "ctx": {
+    "roomId": "room-test-3",
+    "contentHash": "sha256:abc123",
+    "model": "test/model-3"
+  },
+  "prev": null,
+  "nonce": "00112233445566778899aabbccddeeff",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-05-01T20:00:00.000Z",
+    "verificationMethod": "did:prmaat:test-3#key-1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z53JQjhRbUqE8tG5s2j2knK97JhHmowdStUA6HFiY2TmMPwh8yB8H8RNVpejRFoe3KNNZ9Pi2LDGHWDos5rbaRbko"
+  }
+}

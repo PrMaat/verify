@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "PrmaatDailyRoot"
+  ],
+  "issuer": "did:prmaat:platform-anchor",
+  "issuanceDate": "2026-05-01T23:59:59Z",
+  "credentialSubject": {
+    "day": "2026-05-01",
+    "issuerDid": "did:prmaat:test-5",
+    "merkleRoot": "495fa8b72dd71e7c25e963eb23ac2a07cb965349aee7a5cc898b75a7aab9e4b6",
+    "treeSize": 4
+  }
+}

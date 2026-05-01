@@ -1,0 +1,16 @@
+{
+  "leaf": "86fe4a8e5f265917bc8f14a108accad274beab4efe9085de6be395f5e608c52b",
+  "path": [
+    {
+      "side": "right",
+      "hash": "d4dc516af6deced8604403b10d86103a5ba5f95c56d45be8001b30cac938a63c"
+    },
+    {
+      "side": "right",
+      "hash": "8a016f9208d9399a05b49ad862ace8af3ec3ee067220b02401989a04ab3c3b30"
+    }
+  ],
+  "root": "495fa8b72dd71e7c25e963eb23ac2a07cb965349aee7a5cc898b75a7aab9e4b6",
+  "leafIndex": 0,
+  "treeSize": 4
+}

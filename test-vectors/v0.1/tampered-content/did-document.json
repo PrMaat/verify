@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:prmaat:test-2",
+  "verificationMethod": [
+    {
+      "id": "did:prmaat:test-2#key-1",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:prmaat:test-2",
+      "publicKeyMultibase": "z6MkkBoWFpN9cLhR8DzYZX8fPu3SezETrodY9xQVxJiVbQ1h",
+      "prmaat:custody": "os-keychain"
+    }
+  ],
+  "assertionMethod": [
+    "did:prmaat:test-2#key-1"
+  ]
+}

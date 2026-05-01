@@ -1,0 +1,38 @@
+{
+  "name": "@prmaat/verify",
+  "version": "0.1.0",
+  "description": "Reference verifier CLI for PrMaat Verification Spec v0.1. Verifies a signed-event bundle (signature + Merkle inclusion proof + custody check) and exits 0 on conformance, non-zero on failure with a specific failure code from spec §10. Zero runtime dependencies — uses Node 18+ built-in crypto only. Spec at https://prmaat.com/spec/v0.1.",
+  "keywords": [
+    "prmaat",
+    "verification",
+    "ed25519",
+    "did",
+    "audit-chain",
+    "merkle"
+  ],
+  "homepage": "https://prmaat.com/spec/v0.1",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "prmaat-verify": "./bin/prmaat-verify.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "test-vectors/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node test/run-vectors.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrMaat/verify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PrMaat/verify/issues"
+  }
+}

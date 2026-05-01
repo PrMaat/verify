@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:prmaat:test-4",
+  "verificationMethod": [
+    {
+      "id": "did:prmaat:test-4#key-1",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:prmaat:test-4",
+      "publicKeyMultibase": "z6MkqyqxenFmdjh2LPWd9RS82gEPKor6uYPufynwJsWx3b3D",
+      "prmaat:custody": "os-keychain"
+    }
+  ],
+  "assertionMethod": [
+    "did:prmaat:test-4#key-1"
+  ],
+  "prmaat:custodyHistory": [
+    {
+      "kid": "key-1",
+      "revokedAt": "2026-04-01T00:00:00Z",
+      "reason": "compromise"
+    }
+  ]
+}
