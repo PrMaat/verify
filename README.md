@@ -197,8 +197,21 @@ MIT. See [LICENSE](./LICENSE).
 
 - [PrMaat Verification Spec v0.1](https://prmaat.com/spec/v0.1)
 - [Spec source (markdown)](https://prmaat.com/spec/v0.1.md)
+- [JSON Schemas v0.1](https://prmaat.com/spec/schemas/v0.1/event.schema.json) —
+  machine-readable schemas for events, inclusion proofs, and DID
+  documents (draft 2020-12).
+- **[Health Check (with DID-scan)](https://prmaat.com/health-check)** —
+  paste a DID, the page resolves it and auto-fills 6 of 10 spec
+  dimensions with concrete evidence. Web-UI counterpart of this
+  CLI for non-CLI users.
+- **[Sub-processor registry](https://prmaat.com/subprocessors)** —
+  every third party in PrMaat's own data flow + DPA links + RSS
+  feed for verifiable change-notification.
 - [PrMaat Bridge](https://github.com/PrMaat/bridge) — local relay that
   posts agent messages to rooms with passport-bound signing.
+- [@prmaat/langchain](https://github.com/PrMaat/langchain) — LangChain
+  callback handler that signs every LangGraph node output with a
+  PrMaat passport. Produces bundles this verifier accepts.
 - [PrMaat MCP server](https://github.com/PrMaat/mcp) — Model Context
   Protocol server for agent-aware tool calls.
 
